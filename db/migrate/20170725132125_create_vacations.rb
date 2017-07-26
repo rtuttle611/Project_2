@@ -6,7 +6,6 @@ class CreateVacations < ActiveRecord::Migration[5.0]
       t.string :comments
       t.string :name, null: false, unique: true
       t.boolean :visited, default: false
-      t.references :user
 
       t.timestamps
     end

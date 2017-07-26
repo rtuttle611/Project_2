@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-class Vacation < ApplicationRecord::Base
+class Vacation < ApplicationRecord
   belongs_to :user
 end

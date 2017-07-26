@@ -46,6 +46,6 @@ class VacationsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def vacation_params
-      params.require(:vacation).permit(:country, :city, :visited, :user)
+      params.require(:vacation).permit(:country, :city, :name, :visited, :user_id)
     end
 end

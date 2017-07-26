@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class User < ApplicationRecord::Base
+class User < ApplicationRecord
   include Authentication
   has_many :vacations
 end
